@@ -64,5 +64,20 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acornmed is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/acornmed
+AcornMed Biotechnology Co., Ltd. (金橡医学) is a Beijing-headquartered precision-oncology company
+founded in 2018, with subsidiaries in Tianjin and Qingdao. It develops next-generation-sequencing
+(NGS) diagnostics for solid tumors and hematologic malignancies — the AcornUI urine-based series,
+AcornUPro-SEEK, AcornOne 808 and AcornHema 521 — and runs CAP/ISO 15189 central-laboratory testing,
+companion-diagnostic co-development and real-world-data services for pharmaceutical partners.
+
+**No public API surface.** A full contract-discovery pass on 2026-09-06 probed `acornmed.com`,
+`www.acornmed.com` and `en.acornmed.com` for OpenAPI/Swagger, `apis.json`/`apis.yml`, `llms.txt`,
+MCP and A2A agent-card surfaces and the named `/.well-known/` discovery paths. Every path missed,
+a negative-control path also 404'd, and no `api.`, `docs.`, `developer.` or `open.` subdomain
+resolves in DNS. AcornMed sells laboratory testing and IVD products, not software; the page named
+`/dev-service` is pharma R&D services (药企研发合作), not a developer platform. See `x-coverage` in
+`apis.yml`.
+
+- https://en.acornmed.com/
+- https://www.acornmed.com/
+- https://equityzen.com/company/acornmed (harvest source)

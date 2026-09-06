@@ -1,0 +1,147 @@
+generated: '2026-09-06'
+method: probed
+source: live GET of the named /.well-known and root discovery paths on every host in apis.yml
+hit_count: 0
+path_echo_control: passed
+note: AcornMed publishes no discovery documents. All named /.well-known paths return 404 on the registrable
+  domain, www and the English site; en.acornmed.com 302s root paths to /404.html. The negative-control
+  path also 404s, so these are genuine misses and not a catch-all router. No WellKnown or SecurityTxt
+  pointer is emitted - the probe records an absence, not a surface.
+hosts:
+- host: https://acornmed.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/acornmed-negative-control-7f3ab91c.json
+    status: 404
+    file: null
+    note: negative control - path cannot exist; 404 confirms the host does not echo paths
+- host: https://www.acornmed.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 404
+    file: null
+  - path: /apis.yml
+    status: 404
+    file: null
+  - path: /.well-known/acornmed-negative-control-7f3ab91c.json
+    status: 404
+    file: null
+    note: negative control - path cannot exist; 404 confirms the host does not echo paths
+- host: https://en.acornmed.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+  - path: /apis.json
+    status: 302
+    file: null
+    note: 302 -> https://en.acornmed.com/404.html (soft 404 redirect)
+  - path: /apis.yml
+    status: 302
+    file: null
+    note: 302 -> https://en.acornmed.com/404.html (soft 404 redirect)
+  - path: /.well-known/acornmed-negative-control-7f3ab91c.json
+    status: 404
+    file: null
+    note: negative control - path cannot exist; 404 confirms the host does not echo paths

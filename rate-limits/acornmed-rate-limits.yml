@@ -1,0 +1,11 @@
+generated: '2026-09-06'
+method: searched
+source: https://en.acornmed.com/
+limit_count: 0
+note: >-
+  No rate limits are documented because AcornMed publishes no API. Contract discovery
+  (2026-09-06) probed every host the record knows for OpenAPI, GraphQL, MCP, agent-card and
+  apis.json surfaces and found none, so there is no runtime surface to which a limit,
+  window, or RateLimit-* response header could apply. Recorded as an honest zero.
+headers: []
+limits: []

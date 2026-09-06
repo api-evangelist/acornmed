@@ -1,0 +1,22 @@
+generated: '2026-09-06'
+method: searched
+source: https://en.acornmed.com/
+plan_count: 0
+note: >-
+  AcornMed publishes no plans, tiers, or list pricing. It is a clinical laboratory and IVD
+  developer whose products (AcornUI-SEEK, AcornUI-MRD, AcornUPro-SEEK, AcornOne 808,
+  AcornHema 521) are ordered by physicians and hospitals and its pharma services are sold
+  through a partnering/contact form. Neither the English site (en.acornmed.com) nor the
+  Chinese site (www.acornmed.com) carries a pricing, plans, or subscription page, and there
+  is no API to price. Recorded as an honest zero rather than omitted.
+evidence:
+- url: https://en.acornmed.com/
+  status: 200
+  finding: navigation is Home / About / Tests / Partnering / Support - no pricing section
+- url: https://en.acornmed.com/Partnering/index.html
+  status: 200
+  finding: pharma partnering page routes to contact, publishes no rates
+- url: https://www.acornmed.com/dev-service
+  status: 200
+  finding: "药企研发合作 (pharma R&D services) page - services described, no pricing"
+plans: []
