@@ -64,20 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AcornMed Biotechnology Co., Ltd. (金橡医学) is a Beijing-headquartered precision-oncology company
-founded in 2018, with subsidiaries in Tianjin and Qingdao. It develops next-generation-sequencing
-(NGS) diagnostics for solid tumors and hematologic malignancies — the AcornUI urine-based series,
-AcornUPro-SEEK, AcornOne 808 and AcornHema 521 — and runs CAP/ISO 15189 central-laboratory testing,
-companion-diagnostic co-development and real-world-data services for pharmaceutical partners.
+AcornMed Biotechnology Co., Ltd. (金橡医学) is a Beijing-headquartered precision-oncology company founded in 2018, with subsidiaries in Tianjin and Qingdao. It develops and operates next-generation-sequencing (NGS) diagnostics for solid tumors and hematologic malignancies — the AcornUI urine-based series for bladder, ureteral and renal-pelvic cancer rule-out and recurrence monitoring, AcornUPro-SEEK for prostate cancer screening, AcornOne 808 for solid tumors and AcornHema 521 for blood cancers — alongside CAP/ISO 15189 central-laboratory testing, companion-diagnostic co-development and real-world-data services for pharmaceutical partners. AcornMed is a clinical laboratory and IVD developer: it sells testing services to hospitals, physicians and pharma sponsors and publishes no public developer program, API, or machine-readable contract of any kind.
 
-**No public API surface.** A full contract-discovery pass on 2026-09-06 probed `acornmed.com`,
-`www.acornmed.com` and `en.acornmed.com` for OpenAPI/Swagger, `apis.json`/`apis.yml`, `llms.txt`,
-MCP and A2A agent-card surfaces and the named `/.well-known/` discovery paths. Every path missed,
-a negative-control path also 404'd, and no `api.`, `docs.`, `developer.` or `open.` subdomain
-resolves in DNS. AcornMed sells laboratory testing and IVD products, not software; the page named
-`/dev-service` is pharma R&D services (药企研发合作), not a developer platform. See `x-coverage` in
-`apis.yml`.
+**Areas:** Company · Health · Healthcare · Life Sciences · Biotechnology · Genomics · Diagnostics · Oncology · Precision Medicine · Clinical Laboratory · China
 
-- https://en.acornmed.com/
-- https://www.acornmed.com/
-- https://equityzen.com/company/acornmed (harvest source)
+## Acornmed on APIs.io
+
+Everything profiled for Acornmed is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/acornmed/](https://apis.io/providers/acornmed/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Acornmed Domain Security](https://apis.io/security/acornmed/acornmed-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Acornmed Plans Pricing](https://apis.io/plans/acornmed/acornmed-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Acornmed Rate Limits](https://apis.io/rate-limits/acornmed/acornmed-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://en.acornmed.com/)
+- [Support](https://en.acornmed.com/SupportContactUs/index.html)
+- [Blog](https://www.acornmed.com/news)
+
+## API Evangelist rating
+
+**Kin Score 5.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/acornmed/](https://apis.io/providers/acornmed/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Acornmed: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/acornmed/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
